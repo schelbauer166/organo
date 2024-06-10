@@ -17,7 +17,9 @@ function App() {
     <div className="App">
       <Banner />
       <Formulario aoColaboradorCadastrado={colaborador => adionarNovoColaborador(colaborador)}/>
+      <p>teste</p>
     </div>
+    
   );
 }
 
